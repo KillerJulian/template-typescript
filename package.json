@@ -12,27 +12,21 @@
 			"types": "./dist/types/index.d.ts"
 		}
 	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/JulianWowra/template-typescript.git"
-	},
+	"repository": "https://github.com/JulianWowra/template-typescript",
 	"homepage": "https://julianwowra.github.io/template-typescript/",
 	"author": "Julian Wowra <development@julianwowra.de>",
 	"license": "MIT",
-	"publishConfig": {
-		"provenance": true
-	},
-	"packageManager": "pnpm@10.13.0",
+	"packageManager": "pnpm@10.29.3",
 	"devDependencies": {
-		"@eslint/js": "9.31.0",
-		"eslint": "9.31.0",
-		"eslint-config-prettier": "10.1.5",
-		"prettier": "3.6.2",
-		"tsup": "^8.4.0",
-		"typedoc": "~0.28.4",
-		"typedoc-github-theme": "~0.3.0",
-		"typescript": "5.8.3",
-		"typescript-eslint": "8.36.0"
+		"@eslint/js": "9.39.2",
+		"eslint": "9.39.2",
+		"eslint-config-prettier": "10.1.8",
+		"prettier": "3.8.1",
+		"tsup": "^8.5.1",
+		"typedoc": "~0.28.17",
+		"typedoc-github-theme": "~0.4.0",
+		"typescript": "5.9.3",
+		"typescript-eslint": "8.55.0"
 	},
 	"scripts": {
 		"build": "pnpm run build:lib && pnpm build:docs",

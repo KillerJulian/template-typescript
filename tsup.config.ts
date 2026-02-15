@@ -7,7 +7,7 @@ const bannerComment = `/*
  * 🏷️ Version:    ${pkg.version}
  * 📄 License:    ${pkg.license}
  * 🕒 Build:      ${new Date().toISOString()}
- * 🔗 Repository: ${pkg.repository.url}
+ * 🔗 Repository: ${pkg.repository}
  * 👤 Author:     ${pkg.author}
  */\n`;
 
